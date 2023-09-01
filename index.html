@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">   
+    <title> Amazon 2.0 </title>
+
+    <style>
+        body
+        {
+            background-color: white;
+        }
+        .logo
+        {
+            height: 60px;
+            width: 150px;
+            
+        }
+    
+        h1
+        {
+            font-size: 3rem;
+        }
+        .title
+        {
+            text-align: center;
+            margin-top: 150px;   
+            margin-bottom: 150px;        
+        }
+        .title > p 
+        {
+            font-style: italic;
+        }
+        h2
+        {
+            text-align: center;
+            color: darkblue;
+
+        }
+        h3
+        {
+            font-size: 25px;
+            text-decoration: underline;
+            text-align: center;
+        }
+        div
+        {
+            padding: 10px 0px;
+        }
+        .Electronics, .Footwear 
+        {
+            background-color: #f3f3f3;
+        }
+
+        .Clothing, .Furniture
+        {
+            background-color: #e3e6e6 ;
+        }
+     
+        span
+        {
+            color: blue;
+            font-weight: bold;
+        }
+        nav
+        {
+            color: aliceblue;
+        }
+        .list
+        {
+          margin-left:  40%;
+        }
+        .fashion
+        {
+          height: 200px;
+          width: 300px;
+        }
+        table
+        {
+          margin-left: 150px;
+          width: 100%;
+          border-collapse: separate;
+          border-spacing: 15px;
+    
+        }
+        footer > p
+        {
+          display: inline-block;
+          margin: 0 150px;
+        }
+        footer
+        {
+          background-color: black;
+          color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="amazon_logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" style="margin: 0px 3px;">Welcome, User      </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="margin: 0px 10px;">Deliver to : Pune, India </a>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
+            Categories
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Electronics</a></li>
+            <li><a class="dropdown-item" href="#">Clothing</a></li>
+            <li><a class="dropdown-item" href="#">Footwear</a></li>
+            <li><a class="dropdown-item" href="#">Furniture</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"  href="#" style="margin-left: 300px; color: red;"> YOUR CART </a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    
+
+    <div class="title">
+    <h1> A M A Z O N </h1>
+    <p> the <span>biggest </span>  online market </p>
+    </div>
+   
+   
+    <div class="Electronics">
+      <br>
+        <h2> Electronics </h2>
+        <br> <br>
+        <h3>Products</h3>
+        <br>
+        <ul class="list">
+            <li>Mobile Phones</li>
+            <li>TV</li>
+            <li>Laptops</li>
+            <li>Headphones</li>
+            <li>Electronic Appliances - AC,etc. </li>
+        </ul>
+    
+        <br>
+        <h3>Brands</h3>
+        <br>
+
+    <div class="card" style="width: 450px ; height: 150px; display: inline-block; margin: 20px;">
+    <img src="mobile_brands.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">  <h5 style="text-align: center;">~   Mobile Brands   ~</h5>
+
+    </p>
+    </div>
+    </div>
+
+    <div class="card" style="width: 350px; height: 150px; display: inline-block; margin: 20px;">
+    <img src="headphone_brands.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">  <h5 style="text-align: center;">~  Headphone Brands  ~</h5>
+
+    </p>
+    </div>
+    </div>
+
+    <div class="card" style="width: 400px; height: 150px; display: inline-block; margin: 20px;">
+    <img src="laptop_brands.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">  <h5 style="text-align: center;">~  Laptop Brands  ~</h5>
+
+    </p>
+    </div>
+    </div>
+
+
+    <br> <br><br>
+    </div>
+
+
+    <div class="Clothing">
+      <br>
+        <h2>Clothing </h2>
+        <br> <br>
+        <h3>Products</h3>
+        <br> <br>
+
+        <table>
+          <tr>
+            <td>
+               <ul class="list">
+            <li>Men's Fashion</li>
+               <ul>
+                <li>T-shirts & Polos</li>
+                <li>Shirts</li>
+                <li>Jeans</li>
+                <li>Innerwear</li>
+               </ul>
+               </ul> 
+
+            </td>
+            <td>
+              <img src="m_fashion.webp" alt="" class="fashion">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <ul class="list">
+            
+            <li>Women's Fashion</li>
+              <ul>
+                <li>Ethnic Wear</li>
+                <li>Western Wear</li>
+                <li>Traditional - Kurtis, etc.</li>
+                <li>Nightwear</li>
+              </ul>
+              </ul>
+            </td>
+            <td>
+              <img src="w_fashion.jpg" alt="" class="fashion">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+               <ul class="list">
+            <li>Kids </li>
+           </ul>
+            </td>
+           <td>
+             <img src="kid.jpg" alt="" class="fashion">
+           </td>
+
+           </tr>
+        </table>
+        
+        <br> <br>
+
+        <h3>Brands</h3>
+        <br>
+    <div class="card" style="width: 450px ; height: 100px; display: inline-block; margin: 20px;">
+    <img src="women.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">  <h5 style="text-align: center;">~   Fashion For Women   ~</h5>
+
+    </p>
+    </div>
+    </div>
+
+    <div class="card" style="width: 300px; height: 100px; display: inline-block; margin: 20px;">
+    <img src="men.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">  <h5 style="text-align: center;">~  Fashion For Men  ~</h5>
+
+    </p>
+    </div>
+    </div>
+
+    <div class="card" style="width: 400px; height: 100px; display: inline-block; margin: 20px;">
+    <img src="k_fashion.webp" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">  <h5 style="text-align: center;">~  Fashion For Kids  ~</h5>
+
+    </p>
+    </div>
+    </div>
+
+    <br><br><br>
+    </div>
+
+    <div class="Footwear">
+       <br>
+        <h2>Footwear</h2>
+        <br> <br>
+        <h3>Products</h3>
+        <br>
+        <ul class="list">
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kids</li>
+            <li>Shoes</li>
+            <li>Sandals </li>
+        </ul>
+        <br>
+        <h3>Brands</h3>
+        <br>
+
+    <div class="card" style="display: inline-block; width: 400px; height: 100px; display: inline-block; margin-left: 475px; ">
+    <img src="footwear.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">  <h5 style="text-align: center;">~  Footwear Brands  ~</h5>
+
+    </p>
+    </div>
+    </div>
+
+    <br><br><br>
+
+    </div>
+
+    <div class="Furniture">
+       <br>
+        <h2>Furniture</h2>
+        <br><br>
+        <h3>Products</h3>
+        <ul class="list">
+            <li>Mobile Phones</li>
+            <li>TV</li>
+            <li>Laptops</li>
+            <li>Headphones</li>
+            <li>Electronic Appliances - AC,etc. </li>
+        </ul>
+
+        <br>
+        <h3>Brands</h3>
+        <br>
+         <div class="card" style="display: inline-block; width: 550px; height: 100px; display: inline-block; margin-left: 400px; ">
+    <img src="fur.png" class="card-img-top" alt="...">
+    <div class="card-body">
+    <p class="card-text">  <h5 style="text-align: center;">~  Furniture Brands  ~</h5>
+
+    </p>
+    </div>
+    </div>
+
+    <br><br><br>
+    </div>
+
+    <footer>
+        <p>Made By : Aditi Soni </p>
+        <p>Inspired by Amazon.in</p>
+        <p> Just a mock website </p>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
